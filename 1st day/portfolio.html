@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Портфолио | Lift Garant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header class="header py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="fw-bold fs-4 text-dark">LIFT GARANT</div>
+        <nav class="d-flex gap-3">
+            <a href="about.html" class="text-dark text-decoration-none">О нас</a>
+            <a href="catalog.html" class="text-dark text-decoration-none">Каталог</a>
+            <a href="portfolio.html" class="text-dark text-decoration-none">Портфолио</a>
+            <a href="blog.html" class="text-dark text-decoration-none">Блог</a>
+            <a href="services.html" class="text-dark text-decoration-none">Услуги</a>
+            <a href="contact.html" class="text-dark text-decoration-none">Контакты</a>
+            <a href="#" class="text-dark text-decoration-none">KZ / RU</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Портфолио -->
+<section class="portfolio-grid py-5">
+    <div class="container">
+        <h2 class="text-start mb-5 fw-bold">НАШИ ПРОЕКТЫ</h2>
+        <div class="row g-4">
+
+            <!-- Большая карточка слева -->
+            <div class="col-md-6">
+                <div class="portfolio-card position-relative rounded overflow-hidden">
+                    <img src="img/project1.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Проект 1" />
+                    <div class="portfolio-card__number">1</div>
+                    <div class="portfolio-card__title">Т.Ц. ГИПЕР ХАУС</div>
+                    <div class="portfolio-card__icon">↗</div>
+                </div>
+            </div>
+
+            <!-- Правая колонка (2 вертикальные) -->
+            <div class="col-md-6 d-flex flex-column gap-4">
+                <div class="portfolio-card position-relative rounded overflow-hidden flex-fill">
+                    <img src="img/project1.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Проект 2" />
+                    <div class="portfolio-card__number">2</div>
+                    <div class="portfolio-card__title">МАГАЗИН МЕБЕЛИ ISTIKBAL</div>
+                    <div class="portfolio-card__icon">↗</div>
+                </div>
+                <div class="portfolio-card position-relative rounded overflow-hidden flex-fill">
+                    <img src="img/project1.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Проект 3" />
+                    <div class="portfolio-card__number">3</div>
+                    <div class="portfolio-card__title">МЕД. ЦЕНТР ASEM CLINIC</div>
+                    <div class="portfolio-card__icon">↗</div>
+                </div>
+            </div>
+
+            <!-- Нижняя строка (3 карточки) -->
+            <div class="col-md-4">
+                <div class="portfolio-card position-relative rounded overflow-hidden">
+                    <img src="img/project1.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Проект 4" />
+                    <div class="portfolio-card__number">4</div>
+                    <div class="portfolio-card__title">ТОРГОВЫЙ ДОМ IZUMY</div>
+                    <div class="portfolio-card__icon">↗</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-card position-relative rounded overflow-hidden">
+                    <img src="img/project1.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Проект 5" />
+                    <div class="portfolio-card__number">5</div>
+                    <div class="portfolio-card__title">BLACK STAR BURGER</div>
+                    <div class="portfolio-card__icon">↗</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-card position-relative rounded overflow-hidden">
+                    <img src="img/project1.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Проект 6" />
+                    <div class="portfolio-card__number">6</div>
+                    <div class="portfolio-card__title">FN ОТЕЛЬ ШЫМКЕНТ</div>
+                    <div class="portfolio-card__icon">↗</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Пагинация -->
+        <nav class="mt-5 d-flex justify-content-center">
+            <ul class="pagination">
+                <li class="page-item disabled">
+                    <a class="page-link">‹</a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item disabled"><span class="page-link">…</span></li>
+                <li class="page-item"><a class="page-link" href="#">12</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">›</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-dark text-white pt-5">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <!-- Логотип -->
+            <div class="col-md-3 mb-4">
+                <img src="img/logo-white.svg" alt="Lift Garant" class="mb-2" width="120">
+            </div>
+
+            <!-- Каталог -->
+            <div class="col-md-2 mb-4">
+                <h6 class="fw-bold">КАТАЛОГ</h6>
+                <ul class="list-unstyled small">
+                    <li><a href="#" class="text-white-50">Пассажирский лифт</a></li>
+                    <li><a href="#" class="text-white-50">Панорамный лифт</a></li>
+                    <li><a href="#" class="text-white-50">Больничный лифт</a></li>
+                    <li><a href="#" class="text-white-50">Грузовой лифт</a></li>
+                    <li><a href="#" class="text-white-50">Автомобильный лифт</a></li>
+                    <li><a href="#" class="text-white-50">Эскалаторы и траволаторы</a></li>
+                </ul>
+            </div>
+
+            <!-- Услуги -->
+            <div class="col-md-2 mb-4">
+                <h6 class="fw-bold">УСЛУГИ</h6>
+                <ul class="list-unstyled small">
+                    <li><a href="#" class="text-white-50">Сервисное обслуживание</a></li>
+                    <li><a href="#" class="text-white-50">Монтаж лифтов</a></li>
+                    <li><a href="#" class="text-white-50">Ремонт лифтов</a></li>
+                    <li><a href="#" class="text-white-50">Поставка лифтов</a></li>
+                </ul>
+            </div>
+
+            <!-- Компания -->
+            <div class="col-md-2 mb-4">
+                <h6 class="fw-bold">КОМПАНИЯ</h6>
+                <ul class="list-unstyled small">
+                    <li><a href="about.html" class="text-white-50">О компании</a></li>
+                    <li><a href="portfolio.html" class="text-white-50">Портфолио</a></li>
+                    <li><a href="blog.html" class="text-white-50">Блог</a></li>
+                    <li><a href="contact.html" class="text-white-50">Контакты</a></li>
+                </ul>
+            </div>
+
+            <!-- Контакты -->
+            <div class="col-md-3 mb-4">
+                <h6 class="fw-bold">НАШИ КОНТАКТЫ</h6>
+                <ul class="list-unstyled small text-white-50">
+                    <li><i class="bi bi-geo-alt"></i> г. Шымкент, бульвар Кунаева 83/1</li>
+                    <li><i class="bi bi-telephone"></i> +7 (775) 429 03 09</li>
+                    <li><i class="bi bi-telephone"></i> +7 (771) 237 88 01</li>
+                    <li><i class="bi bi-envelope"></i> info@liftgarant.kz</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center text-white-50 border-top pt-3 pb-2 mt-4 small">
+            ABC DESIGN | Zhakhan Aitas
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
